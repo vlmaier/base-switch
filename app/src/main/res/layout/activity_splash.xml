@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:screenOrientation="portrait" >
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:textSize="10sp"
+        android:textColor="#555555"
+        android:gravity="top"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="10sp"
+        android:text="v 0.1.1" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:background="@color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:textSize="10sp"
+        android:textColor="#555555"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:text="Developed by Vladas Maier" />
+
+</RelativeLayout>
