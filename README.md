@@ -1,8 +1,10 @@
+![](https://github.com/vlmaier/base-switch/actions/workflows/build.yml/badge.svg)
+
 # Base Switch
 
 I have developed this Android application back in 2014. I had no Git experience yet, so unfortunately no commit history is available. However, you can look at the code I wrote as an undergraduate.
 
-During my computer science studies, I often needed a basic converter to solve various tasks. So I decided to program an application to do that for me.
+During my computer science studies, I often needed a basic converter to solve various tasks. So I decided to create an application to do that for me.
 
 ## Layout Showcase
 
