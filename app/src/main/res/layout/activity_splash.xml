@@ -6,37 +6,43 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    android:screenOrientation="portrait" >
+    android:screenOrientation="portrait">
 
     <TextView
         android:id="@+id/version"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10sp"
-        android:textSize="10sp"
-        android:textColor="#555555"
-        android:gravity="top"
-        android:layout_marginTop="5sp"
+        android:layout_marginStart="10sp"
         android:layout_marginLeft="10sp"
-        android:text="v 0.1.1" />
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="10sp"
+        android:fontFamily="@font/ostrich_black"
+        android:gravity="top"
+        android:text="@string/version"
+        android:textAllCaps="true"
+        android:textColor="#555555"
+        android:textSize="11sp" />
 
     <ImageView
         android:id="@+id/imgLogo"
-        android:background="@color/transparent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:background="@color/transparent"
+        android:importantForAccessibility="no"
         android:src="@drawable/logo" />
 
     <TextView
         android:id="@+id/footer"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10sp"
-        android:textSize="10sp"
-        android:textColor="#555555"
-        android:gravity="center_horizontal"
         android:layout_alignParentBottom="true"
-        android:text="Developed by Vladas Maier" />
+        android:layout_marginBottom="10sp"
+        android:fontFamily="@font/ostrich_black"
+        android:gravity="center_horizontal"
+        android:text="@string/developed_by"
+        android:textAllCaps="true"
+        android:textColor="#555555"
+        android:textSize="11sp" />
 
 </RelativeLayout>

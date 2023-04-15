@@ -2,6 +2,15 @@
 <resources>
 
     <string name="app_name">Base Switch</string>
-    <string name="action_settings">Settings</string>
+    <string name="ask_for_number">Enter the number accordingly</string>
+    <string name="decimal">decimal</string>
+    <string name="binary">binary</string>
+    <string name="octal">octal</string>
+    <string name="hexadecimal">hexadecimal</string>
+    <string name="convert">convert</string>
+    <string name="clear">c</string>
+    <string name="version">v0.1.1</string>
+    <string name="developed_by">Developed by Vladas Maier</string>
+    <string name="zero">0</string>
 
 </resources>
