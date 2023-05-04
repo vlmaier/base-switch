@@ -1,6 +1,7 @@
 # Base Switch
 
 ![](https://github.com/vlmaier/base-switch/actions/workflows/build.yml/badge.svg)
+![](https://github.com/vlmaier/base-switch/actions/workflows/codeql.yml/badge.svg)
 
 **Base Switch** is an application I have developed back in 2014. I had no Git experience yet,
 so unfortunately the commit history is not available. However, you can look at the code I wrote as an
