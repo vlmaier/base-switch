@@ -1,26 +1,33 @@
-name: build
+name: Build
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
+    paths-ignore:
+      - '**/README.md'
   pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
 
 jobs:
   build:
-
+    name: Build
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-      - name: Set up JDK 17
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up JDK 17 environment
         uses: actions/setup-java@v3
         with:
           java-version: '17'
           distribution: 'temurin'
           cache: gradle
 
-      - name: Grant execute permission for gradlew
+      - name: Grant execute permission for Gradle Wrapper
         run: chmod +x gradlew
+
       - name: Build with Gradle
         run: ./gradlew build
